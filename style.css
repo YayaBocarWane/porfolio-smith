@@ -3,7 +3,7 @@
   padding: 0;
 }
 .navbar {
-  background: url(/image/image1.jpeg) no-repeat;
+  background: url(image/image1.jpeg) no-repeat;
   background-size: cover;
   background-position: center; /* Centre l'image */
   width: 100%;
@@ -211,7 +211,7 @@
   padding: 5rem;
 }
 .borde {
-  width:  28%;
+  width: 28%;
   height: 12px;
   background-color: orange;
   border-radius: 20px;
@@ -221,7 +221,7 @@
 .about h2 {
   margin-top: 25px;
   font-size: 29px;
-  font-family: Poppins, ;
+  font-family: Poppins;
   font-family: 400;
   line-height: 43px;
   color: rgb(51, 51, 51);
@@ -355,18 +355,18 @@
   font-family: sans-serif;
 }
 /* .progress-lettre { */
-  
-  /* display: flex; */
+
+/* display: flex; */
 /* } */
 /* .progress-lettre .lettre { */
-  /* position: relative;
+/* position: relative;
   left: 33rem; */
 /* } */
 .lettre p {
   font-size: 19px;
   font-weight: 400;
   line-height: 37px;
-font-family: Poppins, serif;
+  font-family: Poppins, serif;
   color: rgb(119, 119, 119);
   max-width: 700px;
 }
@@ -377,12 +377,12 @@ font-family: Poppins, serif;
   /* align-items: center; */
 }
 /* ..............................section work................................. */
-.work{
+.work {
   background: #28023d;
   width: 100%;
   height: 130vh;
 }
-.container-work{
+.container-work {
   display: flex;
   display: flex;
   justify-content: flex-start;
@@ -390,69 +390,64 @@ font-family: Poppins, serif;
   gap: 40px;
   position: absolute;
 }
-.work-first{
+.work-first {
   padding: 90px;
   color: #fff;
   position: relative;
   top: -16rem;
 }
 .bord {
-  width:  50px;
+  width: 50px;
   height: 12px;
   background-color: orange;
   border-radius: 20px;
-  
 }
 .work h2 {
   margin-top: 25px;
   font-size: 29px;
-  font-family: Poppins, ;
+  font-family: Poppins;
   font-family: 400;
   line-height: 43px;
   color: #fff;
-  
 }
 .work b {
   color: #808080;
-  
 }
-.work-lettre{
+.work-lettre {
   padding: 4rem;
 }
-.work-lettre b{
+.work-lettre b {
   font-family: Poppins, serif;
   font-size: 21px;
   font-weight: 600;
   line-height: 31px;
   color: #fff;
 }
-.work-lettre h3{
+.work-lettre h3 {
   color: orange;
   font-family: Poppins, serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
 }
-.work-lettre .p1{
+.work-lettre .p1 {
   color: #fff;
   font-family: Poppins, serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
 }
-.work-lettre .p2{
+.work-lettre .p2 {
   font-family: Poppins, serif;
   font-size: 17px;
   font-weight: 900;
   line-height: 40px;
-  color:rgb(221, 221, 221);
+  color: rgb(221, 221, 221);
 }
 .work-lettre .p3 {
   color: #fff;
-  
- 
 }
-.p3 ul  li {
+.p3 ul li {
   font-family: Poppins, serif;
   font-size: 16px;
   font-weight: 400;
@@ -462,127 +457,120 @@ font-family: Poppins, serif;
   position: relative;
 }
 
-.p3 ul li::before{
+.p3 ul li::before {
   content: "";
   position: absolute;
   top: 0.5rem;
-  
+
   left: -1.5rem;
   width: 1%;
   height: 10px;
   border-radius: 10px;
-  border: 1px solid white ;
- 
+  border: 1px solid white;
 }
 /* ...............................section education........................ */
-.container-education{
+.container-education {
   padding: 90px;
   display: flex;
   justify-content: center;
   gap: 18rem;
   position: relative;
 }
-.education-first{
+.education-first {
   /* padding: 90px; */
   color: #fff;
-   /* position: absolute; */
+  /* position: absolute; */
   /* top: -16rem;  */
 }
 .bor {
-  width:  50px;
+  width: 50px;
   height: 12px;
   background-color: orange;
   border-radius: 20px;
-  
 }
 .education h2 {
   margin-top: 25px;
   font-size: 29px;
-  font-family: Poppins, ;
+  font-family: Poppins;
   font-family: 400;
   line-height: 43px;
-  color:
-  rgb(51, 51, 51);
-  
+  color: rgb(51, 51, 51);
 }
 .education b {
   color: #808080;
-} 
+}
 
-.education-lettre::before{
+.education-lettre::before {
   content: "";
   position: absolute;
   left: 30rem;
   border: 1px solid rgb(119, 119, 119);
   border-width: 2px;
   /* width: 2px; */
- height: 940px; 
+  height: 940px;
 }
 
-.education-lettre b{
+.education-lettre b {
   font-family: Poppins, serif;
   font-size: 21px;
   font-weight: 600;
   line-height: 31px;
-  color:
-  rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
 }
-.education-lettre h3{
-  color:rgb(119, 119, 119);
+.education-lettre h3 {
+  color: rgb(119, 119, 119);
   font-family: Poppins, serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
 }
-.education-lettre .p1{
+.education-lettre .p1 {
   color: orange;
   font-family: Poppins, serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
 }
-.education-lettre .p2{
+.education-lettre .p2 {
   font-family: Poppins, serif;
   font-size: 17px;
   font-weight: 900;
   line-height: 40px;
-  color:rgb(119, 119, 119);
+  color: rgb(119, 119, 119);
 }
-.point-rond::before{
+.point-rond::before {
   content: "";
   position: absolute;
   /* top: 0.5rem; */
-  
+
   left: 29.5rem;
   width: 16px;
   height: 16px;
   border-radius: 16px;
-  box-shadow: 0 0 0 8px rgba(255, 171, 0, .4);
-  background-color: #FFAB00;
-  
-
+  box-shadow: 0 0 0 8px rgba(255, 171, 0, 0.4);
+  background-color: #ffab00;
 }
 /* ..................................footer............................ */
-footer{
+footer {
   width: 100%;
 }
-.container-footer img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+.container-footer img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
-.footer-lettre-container{
- display: flex;
- justify-content: space-around;
- align-items: center;
- position: relative;
- top: -9rem;
+.footer-lettre-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: -9rem;
 }
-.chiffre-lettre{
+.chiffre-lettre {
   display: flex;
   gap: 10px;
 }
-.chiffre{
+.chiffre {
   font-family: Poppins, cursive;
   font-size: 64px;
   font-weight: 600;
@@ -594,23 +582,20 @@ footer{
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  color: 
-  rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
-.footers{
+.footers {
   margin-top: -4.5rem;
   background-color: #28023d;
   width: 100%;
   height: 13vh;
   text-align: center;
-
 }
-.footers p{
+.footers p {
   font-family: Poppins, serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 27px;
-  color: 
-  rgb(119, 119, 119);
+  color: rgb(119, 119, 119);
   padding: 20px;
 }
