@@ -600,67 +600,24 @@ footer {
   padding: 20px;
 }
 /* ..............................la partieresponsive ................... */
-@media only screen and (max-width: 1200px) {
-  .navbar {
-    padding-top: 3rem;
-  }
-  .immg-img{
-    position: relative;
-    bottom: -5rem;
-    left: 3rem;
-  }
-  .container-about{
-    text-align: center;
-  }
+
+
+@media only screen and (max-width: 768px) {
   body{
     overflow-x: hidden;
   }
-  .all{
-    width: 20%;
-    height: 2vh;
-  }
-  .container-work{
-    width: 100%;
-  }
-
-  .nav-bar {
-    margin: 10px 5rem;
-    gap: 50px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
   .navbar {
-    padding-top: 2rem;
+    background: url(image/image1.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center; /* Centre l'image */
+    
+   
   }
-
-  .nav-bar {
-    margin: 10px 3rem;
-    gap: 30px;
-  }
-
-  .container-content {
-    width: 90%;
-  }
-
-  .content-info {
-    width: 100%;
-  }
-
-  .heading {
-    padding: 5rem;
-  }
-
-  .container-work, .container-education {
-    flex-direction: column;
-    gap: 2rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-    padding-top: 1rem;
-    height: auto;
+  .immg-img{
+    position: relative;
+    bottom: 5rem;
+     left: -1.2rem; 
+    right: -1.2rem;
   }
 
   .nav-bar {
@@ -673,15 +630,82 @@ footer {
     margin-right: 0;
     margin-left: 0;
   }
+  .global {
+    margin-top: -7rem;
+    text-align: center;
+  }
+  .container-about{
+    flex-direction: column;
+    margin-top: -3rem;
+  }
+  .lettre p{
+    font-size: 22px;
+  }
+  .all{
+    margin-top: 5rem;
+  }
 
   .circle-wrap {
     margin-left: 0;
   }
-
-  .footer-lettre-container {
+  .container-work {
     flex-direction: column;
-    top: 0;
+    position: absolute;
+    /* padding: -3; */
+    
+
   }
+  .work-first {
+    padding: 90px;
+    color: #fff;
+    position: absolute;
+    left: -1rem;
+    top: -0rem;
+    
+  }
+  .work-lettre {
+    padding: 10rem;
+    text-align: center;
+    font-size: 16px; /* Taille par défaut */
+    width: 100px; /* Limite de la largeur du champ */
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+    overflow: hidden; /* Cache le texte qui dépasse */
+    text-overflow: ellipsis;
+    position: relative;
+    left: -7rem;
+    
+  }
+  .container-education {
+    padding: 90px;
+   flex-direction: column;
+  }
+.container-footer img{
+  position: relative;
+}
+   
+  .footer-lettre-container {
+  position: relative;
+  }
+  .chiffre-lettre {
+position: relative;
+top: -9rem;
+
+}
+.chiffre {
+  font-family: Poppins, cursive;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 64px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 1rem;
+}
+.lettres p {
+  font-family: Poppins, serif;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 576px) {
@@ -711,4 +735,5 @@ footer {
   .footer-lettre-container {
     top: 0;
   }
+}
 }
