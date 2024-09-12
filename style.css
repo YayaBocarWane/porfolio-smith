@@ -603,8 +603,9 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
+  
   /* *{
-    /* border: 1px solid red; */
+    border: 1px solid red;
   } */
   body{
     overflow-x: hidden;
@@ -729,6 +730,7 @@ top: -9rem;
   font-weight: 600;
   line-height: 15px;
   color: rgb(255, 255, 255);
+}
 }
 
 @media only screen and (max-width: 576px) {
