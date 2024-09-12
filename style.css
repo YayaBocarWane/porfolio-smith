@@ -653,8 +653,9 @@ footer {
     gap: 16px;
   }
   .grid-image {
-  display: grid; /* le fameux */
-  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  display: flex; /* le fameux */
+  flex-direction: column;
+  /* grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); */
   /* grid-template-rows:430px;  */
   gap: 16px;
 }
