@@ -250,6 +250,18 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  background-color: #d9d7da;
+  /* background-color: orange; */
+}
+.fi {
+  display: grid;
+  grid-template-columns: repeat(1, 160px);
+  grid-gap: 80px;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   /* background-color: #d9d7da; */
   background-color: orange;
 }
@@ -274,32 +286,45 @@
 .mask .full-1,
 .circle .fill-1 {
   animation: fill-1 ease-in-out 3s;
-  transform: rotate(153deg);
+  transform: rotate(360deg);
+  background-color: orange;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  clip: rect(0px, 75px, 150px, 0px);
 }
 @keyframes fill-1 {
   0% {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(153deg);
+    transform: rotate(360deg);
   }
 }
 /* color anim tion for 2nd progress bar  */
 .mask .fill-2 {
   clip: rect(0px, 75px, 150px, 0px);
   background-color: orange;
+  
 }
 .mask .full-2,
 .circle .fill-2 {
   animation: fill-2 ease-in-out 3s;
-  transform: rotate(117deg);
+  transform: rotate(281deg);
+  background-color: orange;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  clip: rect(0px, 75px, 150px, 0px);
 }
 @keyframes fill-2 {
   0% {
     transform: rotate(0deg);
   }
-  100% {
-    transform: rotate(1175deg);
+  78% {
+    transform: rotate(281deg);
   }
 }
 /* color anim tion for 3rd progress bar  */
@@ -310,14 +335,20 @@
 .mask .full-3,
 .circle .fill-3 {
   animation: fill-3 ease-in-out 3s;
-  transform: rotate(135deg);
+  transform: rotate(241deg);
+  background-color: orange;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  clip: rect(0px, 75px, 150px, 0px);
 }
 @keyframes fill-3 {
   0% {
     transform: rotate(0deg);
   }
-  100% {
-    transform: rotate(135deg);
+  68% {
+    transform: rotate(241deg);
   }
 }
 /* color anim tion for 4rd progress bar  */
@@ -328,14 +359,21 @@
 .mask .full-4,
 .circle .fill-4 {
   animation: fill-4 ease-in-out 3s;
-  transform: rotate(153deg);
+  transform: rotate(349deg);
+  background-color: orange;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  clip: rect(0px, 75px, 150px, 0px);
+  
 }
 @keyframes fill-4 {
   0% {
     transform: rotate(0deg);
   }
-  100% {
-    transform: rotate(153deg);
+  97% {
+    transform: rotate(349deg);
   }
 }
 .inside-circle {
